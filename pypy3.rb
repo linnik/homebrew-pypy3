@@ -7,10 +7,9 @@ class Pypy3 < Formula
   version "6.1.0-alpha0"
 
   bottle do
+    root_url "https://github.com/linnik/homebrew-pypy3-nightly/releases/download/6.1.0-alpha0"
     cellar :any
-    sha256 "d9d5f2d2d7e60b346ed1ca01a80aa4dca94f47d2e22b51c413650723531434a7" => :high_sierra
-    sha256 "3587356d19f963dde3c1862faef0fa6d10fa716b733f0574f9b5530d61d734bc" => :sierra
-    sha256 "1650e0f3cfcc61793e853d1c738577a37259ea4351a8766f783afafefd0722e5" => :el_capitan
+    sha256 "6f2368eb01a0b24d32b4b026bb35a60561856feecf1aa8038301688f3575f935" => :high_sierra
   end
 
   depends_on :arch => :x86_64
