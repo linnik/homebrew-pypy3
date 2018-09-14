@@ -1,8 +1,7 @@
 class Pypy3 < Formula
   desc "Implementation of Python 3 in Python"
   homepage "https://pypy.org/"
-  url "https://bitbucket.org/pypy/pypy/downloads/pypy3-v6.0.0-src.tar.bz2"
-  sha256 "ed8005202b46d6fc6831df1d13a4613bc40084bfa42f275068edadf8954034a3"
+  url "https://bitbucket.org/pypy/pypy/get/py3.6.tar.bz2"
   head "https://bitbucket.org/pypy/pypy", :using => :hg, :branch => "py3.6"
 
   bottle do
